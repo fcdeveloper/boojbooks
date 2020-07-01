@@ -18,5 +18,5 @@ Route::match(['get', 'post'], '/', 'Books@list')->name('list_books');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/books/{id}/delete', 'Books@delete')->name('delete_book');
+Route::get('/books/delete/{id}', 'Books@delete')->name('delete_book');
 Route::get('/books/details/{id}', 'Books@details')->name('details_book');

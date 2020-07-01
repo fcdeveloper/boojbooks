@@ -29,8 +29,8 @@ class Books extends Controller
             ]);
     }
 
-    public function delete(Request $request){
-        
+    public function delete($id, Request $request){
+        return die('This is a demo, delete books is not allowed');
     }
 
     public function details($id, Request $request)
