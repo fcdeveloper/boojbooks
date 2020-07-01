@@ -37,7 +37,7 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
+                        <!-- Authentication Links 
                         @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -65,7 +65,7 @@
                                     </form>
                                 </div>
                             </li>
-                        @endguest
+                        @endguest -->
                         <li class="nav-item">
                             <form id="search_frm" method="POST" class="form-inline" action="{{route('list_books')}}">
                                 @csrf
