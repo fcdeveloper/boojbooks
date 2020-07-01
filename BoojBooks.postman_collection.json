@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "42e6f3d8-1550-4547-b62f-58cbf6deed48",
+		"name": "BoojBooks",
+		"description": "Full Stack Developer Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.googleapis.com/books/v1/volumes?q=search+laravel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes?q=search+laravel",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "search+laravel"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
